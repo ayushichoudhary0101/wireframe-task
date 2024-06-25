@@ -1,0 +1,38 @@
+/* styles.css */
+.view-toggle button {
+    margin-right: 10px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .view-toggle button.active {
+    background-color: #ccc;
+  }
+  
+  .grid-view .card-item {
+    display: inline-block;
+    width: calc(25% - 10px);
+    margin: 5px;
+  }
+  
+  .list-view .card-item {
+    display: block;
+    width: 100%;
+    margin: 5px 0;
+  }
+  
+  .remove-button {
+    background: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .card-item {
+    position: relative;
+  }
+  
