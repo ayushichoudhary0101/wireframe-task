@@ -6,7 +6,6 @@ import CardList from '../component/CardList';
 import Navbar from '../component/Navbar';
 import ToggleButton from '../component/ToggleButton';
 import FeedbackForm from '../component/FeedbackForm';
-import PaginationComponent from '../component/Pagination';
 import '../styles/styles.css';
 
 const HomePage = () => {

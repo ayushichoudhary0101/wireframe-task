@@ -13,8 +13,8 @@ const ToggleButton = () => {
     
   return (
     <div className="view-toggle">
-    <button onClick={() => handleToggle('list')} className={viewMode === 'list' ? 'active' : ''}>List</button>
-    <button onClick={() => handleToggle('grid')} className={viewMode === 'grid' ? 'active' : ''}>Grid</button>
+    <Button onClick={() => handleToggle('list')} className={viewMode === 'list' ? 'active' : ''}>view</Button>
+    <Button onClick={() => handleToggle('grid')} className={viewMode === 'grid' ? 'active' : ''}>Grid</Button>
   </div>
   );
 };

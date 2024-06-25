@@ -13,6 +13,7 @@ const PostCard = ({ post }) => {
   };
 
   const handlePostSelect=(post)=>{
+    console.log(post,"post")
     dispatch(postSelect(post))
   }
 
